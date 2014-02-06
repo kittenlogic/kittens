@@ -1,0 +1,23 @@
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$btn-primary-bg: green;
+$navbar-default-bg: #FFF;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+.navbar-default {
+  border-color: #FFF; 
+}
+
+.footer {
+	margin-top: 50px;
+	color: #999;
+	a {
+		color: $gray;
+	}
+}
