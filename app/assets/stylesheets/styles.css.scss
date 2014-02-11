@@ -1,7 +1,7 @@
 $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-$btn-primary-bg: green;
+$btn-primary-bg: blue;
 $navbar-default-bg: #FFF;
 
 @import 'bootstrap';
@@ -20,4 +20,9 @@ body {
 	a {
 		color: $gray;
 	}
+}
+
+.form-horizontal .form-group {
+	margin-left: 0px;
+	margin-right: 0px;
 }
