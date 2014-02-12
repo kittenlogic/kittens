@@ -1,4 +1,8 @@
 Kittens::Application.routes.draw do
+  resources :pinzs
+
+  resources :pins
+
   devise_for :users
   get 'about' => 'pages#about'
   root :to => 'pages#home' 
