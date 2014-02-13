@@ -29,5 +29,7 @@ Kittens::Application.configure do
 
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
+  Paperclip.options[:command_path] = "/Users/Emily/ImageMagick-6.6.7/bin/"
+
   
 end
