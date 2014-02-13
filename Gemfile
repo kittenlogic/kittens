@@ -6,6 +6,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'devise'
 gem 'simple_form'
+gem 'paperclip', '3.4.0'
+gem 'cocaine', '0.4.2'
 
 group :production do
   gem 'pg'
