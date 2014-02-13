@@ -1,6 +1,5 @@
 Kittens::Application.routes.draw do
-  resources :pinzs
-
+  
   resources :pins
 
   devise_for :users
