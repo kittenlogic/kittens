@@ -31,5 +31,5 @@ Kittens::Application.configure do
 
   Paperclip.options[:command_path] = "/Users/Emily/ImageMagick-6.6.7/bin/"
 
-  
+
 end
