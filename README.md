@@ -1,3 +1,3 @@
-#I can't remember why I named this 'kittens'
+#meows
 
 My first Rails App.
